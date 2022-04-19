@@ -1,0 +1,24 @@
+{
+  "name": "twitter-youtube-server",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node controllers/index",
+    "start-api": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "twitter-api-v2": "^1.11.2",
+    "twitter-text": "^3.1.0"
+  }
+}
